@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#menu {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-between;
+}
+
+#logo {
+  border: 1px solid black;
+}
+
+#links {
+  border: 1px solid black;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#home-link {
+  border: 1px solid black;
+}
+
+#projects-link {
+  border: 1px solid black;
+  margin-left: 20px;
+}
+
+#about-link {
+  border: 1px solid black;
+  margin-left: 20px;
+}
+
+#contact-link {
+  border: 1px solid black;
+  margin-left: 20px;
+}
