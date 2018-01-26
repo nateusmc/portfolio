@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-size: 24px;
 }
 
 .menu {
@@ -30,6 +31,10 @@
   margin-top: 2%;
 }
 
+.animated-text-size {
+  font-size: 30px !important;
+}
+
 .short-description {
   display: flex;
   justify-content: center;
@@ -47,7 +52,55 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-bottom: 2%;
+  border: 1px solid black;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid black; */
+}
+.project-name {
+  margin-bottom: 20px;
+}
+
+.tech-stacks {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+  margin-bottom: 30px;
+}
+
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  width: 300px;
+  margin-bottom: 30px;
+}
+
+.tech {
+  border: 1px solid black;
+}
+
+.project-link {
+  border: 1px solid black;
+}
+
+.project-description {
+  align-content: center;
+  margin-bottom: 10px;
+  width: 80%;
+}
+
+.project-img {
+  height: 300px;
+  width: 800px;
+  margin-bottom: 10px;
 }
 
 .hire-me {
