@@ -86,6 +86,7 @@ nav {
   /* border: 1px solid black; */
 }
 .project-name {
+  text-align: center;
   margin-bottom: 20px;
 }
 
@@ -129,7 +130,12 @@ nav {
 .hire-me {
   display: flex;
   justify-content: center;
-  margin-bottom: 2%;
+  margin-bottom: 40px;
+  /* border: 1px solid black; */
+}
+
+.contact-button {
+  margin-top: 40px;
   /* border: 1px solid black; */
 }
 
