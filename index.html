@@ -5,7 +5,6 @@
   <link rel='stylesheet' type='text/css' href='main.css'>
   <meta charset='utf-8'>
   <title>Nathan Garrett's Portfolio</title>
-  <script type='text/javascript' src='main.js'></script>
 </head>
 
 <body>
@@ -37,19 +36,25 @@
     <a href='https://www.linkedin.com/in/nathan-garrett-b2a8a1123'>LinkedIn</a>
   </button>
   <button type='button'>
-    <a href='mailto:nate.garrett1992@gmail.com'>Email Address</a>
+    <a href='mailto:nate.garrett1992@gmail.com'>Email</a>
   </button>
   <button type='button'>
-    <a href='resources/NathanGarrettResume2017.pdf'>Download Resume</a>
+    <a href='resources/NathanGarrettResume2017.pdf'>Resume</a>
   </button>
 </div>
 </div>
 
+<div class='projects-label'>
+  <p>
+    <b>Select Project To View:</b>
+  </p>
+</div>
+
 <div class='project-buttons'>
-  <button type='button'>Project 1</button>
-  <button type='button'>Project 2</button>
-  <button type='button'>Project 3</button>
-  <button type='button'>Project 4</button>
+  <button type='button' onclick='showProject1()'>Project 1</button>
+  <button type='button' onclick='showProject2()'>Project 2</button>
+  <button type='button' onclick='showProject3()'>Project 3</button>
+  <button type='button' onclick='showProject4()'>Project 4</button>
 </div>
 
 <div class='all-projects'>
@@ -87,7 +92,7 @@
     <p class='project-description'>
       Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
     </p>
-    <img src='./images/mountains.jpeg' alt='mountain-img' class='project-img'
+    <img src='./images/mountains.jpeg' alt='mountain-img' class='project-img'>
   </div>
   <div class='project-3 project'>
     <h2 class='project-name'>Sitter Finder</h2>
@@ -130,9 +135,15 @@
 <div class='hire-me-wrapper'>
 <div class='hire-me'>
   <button type='button'>
-    <a href='mailto:nate.garrett1992@gmail.com'>Yes, I'm available for hire!</a>
+    <a href='mailto:nate.garrett1992@gmail.com'>Available For Hire!</a>
   </button>
 </div>
+</div>
+
+<div class='about-me-label'>
+  <p>
+    <b>About Me:</b>
+  </p>
 </div>
 
 <div class='about-me'>
@@ -158,10 +169,10 @@
     <a href='https://www.linkedin.com/in/nathan-garrett-b2a8a1123'>LinkedIn</a>
   </button>
   <button type='button'>
-    <a href='mailto:nate.garrett1992@gmail.com'>Email Address</a>
+    <a href='mailto:nate.garrett1992@gmail.com'>Email</a>
   </button>
   <button type='button'>
-    <a href='resources/NathanGarrettResume2017.pdf'>Download Resume</a>
+    <a href='resources/NathanGarrettResume2017.pdf'>Resume</a>
   </button>
 </div>
 </div>
@@ -187,6 +198,7 @@ let typed = new Typed('.dynamic-text', {
   loop: true,
 });
 </script>
+<script type='text/javascript' src='main.js'></script>
 </body>
 
 </html>
