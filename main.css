@@ -123,6 +123,13 @@ nav {
   margin-bottom: 30px;
 }
 
+.project-links-no-demo {
+  display: flex;
+  justify-content: center;
+  width: 70%;
+  margin-bottom: 30px;
+}
+
 .tech {
   border: 1px solid black;
 }
@@ -133,7 +140,7 @@ nav {
 
 .project-description {
   align-content: center;
-  margin-bottom: 10px;
+  margin-bottom: 2%;
   width: 80%;
 }
 
