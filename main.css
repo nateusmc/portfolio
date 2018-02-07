@@ -85,23 +85,8 @@ nav {
   align-items: center;
 }
 
-.project-1 {
-  /* border: 1px solid black; */
-}
-
-.project-2 {
+.project-2, .project-3, .project-4 {
   display: none;
-  /* border: 1px solid black; */
-}
-
-.project-3 {
-  display: none;
-  /* border: 1px solid black; */
-}
-
-.project-4 {
-  display: none;
-  /* border: 1px solid black; */
 }
 
 .project-name {
@@ -147,10 +132,16 @@ nav {
   border: 1px solid black;
 }
 
+.project-description-wrapper {
+  display: flex;
+  justify-content: center;
+  width: 80%
+  margin-bottom: 3%;
+}
+
 .project-description {
-  align-content: center;
-  margin-bottom: 2%;
   width: 80%;
+  margin-bottom: 3%;
 }
 
 .project-img {
