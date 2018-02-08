@@ -30,7 +30,8 @@ nav {
 }
 
 .animated-text-size {
-  font-size: 30px !important;
+  font-size: 28px !important;
+  font-family: 'Rammetto One', cursive;
 }
 
 .short-description {
@@ -39,6 +40,11 @@ nav {
   text-align: center;
   font-size: inherit;
   margin-bottom: 4%;
+  font-family: 'Nanum Pen Script', cursive;
+}
+
+.short-description > p {
+  font-size: 36px;
 }
 
 /* Professional Links
@@ -63,7 +69,7 @@ nav {
 .project-buttons {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 3% !important;
+  margin-bottom: 6% !important;
   margin: 0 auto;
   width: 700px;
 }
@@ -95,6 +101,7 @@ nav {
   font-size: 30px;
   border-bottom: 3px solid #c2c9d3;
   margin-bottom: 2%;
+  font-family: 'Rammetto One', cursive;
 }
 
 .tech-stacks {
@@ -103,6 +110,7 @@ nav {
   width: 600px;
   margin-bottom: 2%;
   margin-top: 2%;
+  font-family: 'Alegreya', serif;
 }
 
 .tech-stacks-few {
@@ -111,13 +119,13 @@ nav {
   width: 300px;
   margin-bottom: 2%;
   margin-top: 2%;
+  font-family: 'Alegreya', serif;
 }
 
 .project-links {
   display: flex;
   justify-content: space-between;
   width: 70%;
-  margin-bottom: 2%;
   margin-top: 2%;
 }
 
@@ -125,7 +133,6 @@ nav {
   display: flex;
   justify-content: center;
   width: 70%;
-  margin-bottom: 2%;
   margin-top: 2%;
 }
 
@@ -138,11 +145,14 @@ nav {
   justify-content: center;
   width: 80%
   margin-bottom: 3%;
+  font-family: 'Alegreya', serif;
 }
 
 .project-description {
   width: 80%;
-  margin-bottom: 3%;
+  margin-bottom: 4%;
+  margin-top: 4%;
+  text-align: center;
 }
 
 .project-img {
@@ -186,25 +196,32 @@ nav {
   margin-bottom: 4%;
   margin-left: 10%;
   margin-right: 10%;
+  font-family: 'Alegreya', serif;
+  text-align: center;
 }
 
-.projects-label {
+.projects-label > p {
   display: flex;
   justify-content: center;
-  margin-top: 4%;
+  margin-top: 6%;
   margin-bottom: 2%;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
 }
 
-.project-label {
+.project-label > p {
   display: flex;
   justify-content: center;
+  font-family: 'Alegreya', serif;
 }
 
-.about-me-label {
+.about-me-label > p {
   display: flex;
   justify-content: center;
   margin-bottom: 2%;
   margin-top: 4%;
+  font-family: 'Lobster', cursive;
+  font-size: 30px;
 }
 
 .link-icons {
@@ -226,10 +243,10 @@ nav {
   -moz-border-radius: 60;
   border-radius: 60px;
   text-shadow: 1px 1px 3px #666666;
-  font-family: Arial;
+  font-family: 'Alegreya', serif;
   color: #ffffff;
-  font-size: 24px;
-  padding: 8px 20px 10px 20px;
+  font-size: 28px;
+  padding: 8px 15px 15px 15px;
   text-decoration: none;
 }
 
@@ -253,7 +270,7 @@ nav {
   -webkit-border-radius: 60;
   -moz-border-radius: 60;
   border-radius: 60px;
-  font-family: Arial;
+  font-family: 'Alegreya', serif;
   color: #ffffff;
   font-size: 20px;
   padding: 10px 20px 10px 20px;
