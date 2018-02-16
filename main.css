@@ -14,29 +14,10 @@ a {
 =========================================================*/
 
 @media only screen and (max-width: 750px) {
-    body {
-        background-color: lightblue;
-    }
     .tech-stacks {
       display: flex;
       flex-flow: column wrap;
     }
-}
-
-@media only screen and (max-width: 850px) {
-  /* .professional-links {
-    display: flex;
-    flex-flow: column !important;
-    align-items: center;
-  } */
-  .group1 {
-    display: flex !important;
-    flex-direction: column !important;
-  }
-  .group2 {
-    display: flex !important;
-    flex-direction: column !important;
-  }
 }
 
 /* Header/Nav
@@ -92,18 +73,19 @@ nav {
 
 .professional-links {
   display: flex;
-  justify-content: space-between;
-  flex-direction: row;
-  margin: 0 auto;
-  max-width: 90%;
+  padding: 0;
+  margin: 0;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
 }
 
 .project-buttons {
   display: flex;
-  justify-content: space-between;
-  margin-bottom: 6% !important;
+  padding: 0;
   margin: 0 auto;
-  width: 80%;
+  flex-flow: row wrap;
+  margin-bottom: 6% !important;
+  justify-content: space-evenly;
 }
 
 /* Projects
@@ -298,7 +280,7 @@ nav {
   font-family: 'Alegreya', serif;
   color: #ffffff;
   font-size: 20px;
-  padding: 10px 20px 10px 20px;
+  padding: 10px 10px 10px 10px;
   border: solid #33aaff 2px;
   text-decoration: none;
 }
