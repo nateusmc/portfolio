@@ -14,11 +14,18 @@ a {
 =========================================================*/
 
 @media only screen and (max-width: 750px) {
-    .tech-stacks {
-      display: flex;
-      flex-flow: column wrap;
-    }
+  .tech-stacks {
+    display: flex;
+    flex-flow: column wrap;
+  }
 }
+
+@media only screen and (max-width: 489px) {
+  .btn-wrap {
+    margin-top: 20px;
+  }
+}
+
 
 /* Header/Nav
 =========================================================*/
@@ -138,8 +145,9 @@ nav {
 
 .project-links {
   display: flex;
-  justify-content: space-between;
-  width: 70%;
+  justify-content: space-around;
+  flex-flow: row wrap;
+  width: 100%;
   margin-bottom: 6%;
 }
 
