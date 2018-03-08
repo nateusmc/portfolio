@@ -247,6 +247,8 @@ nav {
   height: 32px;
   width: 32px;
   margin: 0 auto;
+  transform: translateY(7px);
+  margin-right: 5px;
 }
 
 /* Button Styling */
@@ -268,6 +270,7 @@ nav {
   padding: 4px 8px 8px 8px;
   text-decoration: none;
   text-align: center;
+  cursor: pointer;
 }
 
 .btn-links:hover {
@@ -291,6 +294,7 @@ nav {
   padding: 10px 10px 10px 10px;
   border: solid #33aaff 2px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .btn:hover {
