@@ -10,8 +10,7 @@ a {
   text-decoration: none;
 }
 
-/* Media Queries
-=========================================================*/
+/* Media Queries */
 
 @media only screen and (max-width: 750px) {
   .tech-stacks {
@@ -27,8 +26,7 @@ a {
 }
 
 
-/* Header/Nav
-=========================================================*/
+/* Header/Nav */
 
 nav {
   display: flex;
@@ -39,18 +37,6 @@ nav {
   height: 200px;
   width: 325px;
 }
-
-/* .dev-text {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 2%;
-  margin-top: 2%;
-} */
-
-/* .animated-text-size {
-  font-size: 28px !important;
-  font-family: 'Rammetto One', cursive;
-} */
 
 .short-description {
   display: flex;
@@ -66,8 +52,7 @@ nav {
   font-size: 36px;
 }
 
-/* Professional Links
-=========================================================*/
+/* Professional Links */
 .links-wrapper {
   border-top: 3px solid #c2c9d3;
   border-bottom: 3px solid #c2c9d3;
@@ -95,8 +80,7 @@ nav {
   justify-content: space-evenly;
 }
 
-/* Projects
-=========================================================*/
+/* Projects */
 .all-projects {
   display: flex;
   flex-direction: column;
@@ -161,7 +145,7 @@ nav {
 .project-description-wrapper {
   display: flex;
   justify-content: center;
-  width: 80%
+  width: 80%;
   margin-bottom: 3%;
   font-family: 'Alegreya', serif;
 }
@@ -203,11 +187,9 @@ nav {
 .hire-me {
   display: flex;
   justify-content: center;
-  /* width: 80%; */
 }
 
-/* About Me
-=========================================================*/
+/* About Me */
 .about-me {
   display: flex;
   flex-direction: column;
@@ -227,12 +209,6 @@ nav {
   font-family: 'Lobster', cursive;
   font-size: 30px;
 }
-
-/* .project-label > p {
-  display: flex;
-  justify-content: center;
-  font-family: 'Alegreya', serif;
-} */
 
 .about-me-label > p {
   display: flex;
